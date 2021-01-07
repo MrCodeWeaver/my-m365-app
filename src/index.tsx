@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { Providers } from '@microsoft/mgt-element';
+import { MsalProvider } from '@microsoft/mgt-msal-provider';
+
+Providers.globalProvider = new MsalProvider({
+  clientId: 'replace_with_ClientId'
+});
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
