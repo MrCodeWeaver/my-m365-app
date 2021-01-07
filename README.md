@@ -1,3 +1,1 @@
-# Getting Started with Create React App
-
-Sample mgt React app to showcase problem with PersonComponent not updating
+# Sample mgt React app to showcase problem with PersonCard component not updating
