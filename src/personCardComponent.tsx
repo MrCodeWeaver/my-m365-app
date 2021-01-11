@@ -29,7 +29,6 @@ export class PersonCardComponent extends Component<IPersonCardComponentProps, IP
             Enter GUID Value:
             <input type="text" value={this.state.value} onChange={this.handleChange} />
            </label>
-            <input type="submit" value="Submit" />
         </form>
         Hello, {this.state.value}
           { (this.state.value) && <PersonCard
